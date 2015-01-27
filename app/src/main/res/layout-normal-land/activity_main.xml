@@ -1,0 +1,211 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="1000dp"
+    android:layout_height="800dp"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout android:layout_width="1000dp"
+    android:layout_height="800dp"
+    android:orientation="vertical"
+    android:id="@+id/parent_land"
+    >
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Player 1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/startingValue"
+            android:id="@+id/score_1"
+            />
+        <Button android:layout_weight="1"
+            android:id="@+id/plus_1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="+"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/minus_1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="-"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/plus5_1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="+5"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/minus5_1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="-5"
+            android:onClick="onClick"/>
+    </LinearLayout>
+    <!--PLAYER 2-->
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="150dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Player 2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/startingValue"
+            android:id="@+id/score_2"
+            />
+
+        <Button android:layout_weight="1"
+            android:id="@+id/plus_2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="+"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/minus_2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="-"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/plus5_2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="+5"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/minus5_2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="-5"
+            android:onClick="onClick"/>
+    </LinearLayout>
+    <!--PLAYER 3-->
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="285dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Player 3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/startingValue"
+            android:id="@+id/score_3"
+            />
+        <Button android:layout_weight="1"
+            android:id="@+id/plus"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="+"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/minus"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="-"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/plus5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="+5"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/minus5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="-5"
+            android:onClick="onClick"/>
+    </LinearLayout>
+    <!--PLAYER 4-->
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout4"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="420dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Player 4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/startingValue"
+            android:id="@+id/score_4"
+            />
+        <Button android:layout_weight="1"
+            android:id="@+id/plus_4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="+"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/minus_4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="-"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/plus5_4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="+5"
+            android:onClick="onClick"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/minus5_4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="-5"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="0"
+        android:layout_marginTop="230dp"
+        android:visibility="invisible"/>
+</RelativeLayout>
+</ScrollView>
